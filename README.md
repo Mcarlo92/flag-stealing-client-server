@@ -22,19 +22,19 @@ In particular, the services provided by the server to the client are the followi
 
 The client will allow the user to use the services offered by the server.
 
-Compilation of sources
+# Compilation of sources
 
 For the server we will run the following command in the shell:
 
-gcc server.c -o server -pthread
+    gcc server.c -o server -pthread
 
 For the client we will run the following command in the shell:
 
-gcc client.c -o client -pthread
+    gcc client.c -o client -pthread
 
 After compiling we run the server always typing in the shell
 
-./server port
+    ./server port
     
 The port is an alphanumeric value, on which the server listens.
 We remind users that not all ports are the same, in particular:
@@ -47,7 +47,7 @@ If the execution is successful, the following screen will be shown:
     
 Then we launch the client in a new terminal
 
-./client port address
+    ./client port address
 
 In <port> we insert the value of the port on which the server is listening
 That is, that choice in the execution of the server.
