@@ -46,7 +46,9 @@ If the execution is successful, the following screen will be shown:
     ![image](https://user-images.githubusercontent.com/33984528/149159952-33d2f036-6cdd-4d34-ba7a-43a05f34ba1e.png)
     
 Then we launch the client in a new terminal
+
 ./client port address
+
 In <port> we insert the value of the port on which the server is listening
 That is, that choice in the execution of the server.
 In <address> we enter the address of our server, however being the local server,
