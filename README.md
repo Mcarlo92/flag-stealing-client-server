@@ -26,15 +26,15 @@ Compilation of sources
 
 For the server we will run the following command in the shell:
 
-gcc server.c -o server -pthread
+    gcc server.c -o server -pthread
 
 For the client we will run the following command in the shell:
 
-gcc client.c -o client -pthread
+    gcc client.c -o client -pthread
 
 After compiling we run the server always typing in the shell
 
-./server port
+    ./server port
     
 The port is an alphanumeric value, on which the server listens.
 We remind users that not all ports are the same, in particular:
